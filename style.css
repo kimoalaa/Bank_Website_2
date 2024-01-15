@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,300;0,700;1,400&family=Dangrek&family=Fjalla+One&family=Fredoka+One&family=Koulen&family=Lalezar&family=Lobster&family=Noto+Kufi+Arabic:wght@400;500;600&family=Oleo+Script+Swash+Caps&family=Oxygen:wght@700&family=Pacifico&family=Poppins:wght@500&family=Rakkas&family=Roboto:wght@500&family=Signika+Negative:wght@400;600&family=Staatliches&family=Tilt+Warp&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main div */
+body{
+    background-color: #fff;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .img{
+    height: 500px;
+}
+.main .text{
+    display: flex;
+    flex-direction: column;
+}
+.main .text .text_one{
+    color: rgb(20, 16 , 45);
+    font-size: 45px;
+    font-weight:500;
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 25px;
+    letter-spacing: 2.5px;
+}
+.main .text .text_two{
+    color: rgb(116, 113, 113);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+.main .text .btns{
+    display: flex;
+    padding-top: 30px;
+}
+.main .text .btns .login{
+    margin-right: 20px;
+    border: none;
+    border-radius: 7px;
+    border: 2px solid rgb(20, 16 , 45);
+    background-color: rgb(20, 16 , 45);
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 7px 7px;
+    width: 40%;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.main .text .btns .login:hover{
+    background: none;
+    color: rgb(20, 16 , 45);
+    border: 2px solid rgb(20, 16 , 45);
+}
+.main .text .btns .sign{
+    border: none;
+    border-radius: 7px;
+    color: rgb(20, 16 , 45);
+    border: 2px solid rgb(20, 16 , 45);
+    background-color: #fff;
+    font-size: 21px;
+    padding: 7px 7px;
+    width: 40%;
+    font-weight: 600;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.main .text .btns .sign:hover{
+    background-color: rgb(20, 16 , 45);
+    color: #fff;
+}
